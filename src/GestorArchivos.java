@@ -64,7 +64,6 @@ public class GestorArchivos {
                         continue;
                     }
 
-                    // Evitar duplicados al leer archivo
                     boolean duplicado = false;
                     for (Estudiante existente : lista) {
                         if (existente.getCodigo().equalsIgnoreCase(codigo)) {
