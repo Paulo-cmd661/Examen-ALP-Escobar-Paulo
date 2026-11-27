@@ -6,7 +6,6 @@ public class Main {
         GestionAcademica gestion = new GestionAcademica();
         GestorArchivos gestorArchivos = new GestorArchivos();
 
-        // Recuperación automática al iniciar el programa
         gestion.setEstudiantes(gestorArchivos.cargarEstudiantes());
 
         int opcion = 0;
