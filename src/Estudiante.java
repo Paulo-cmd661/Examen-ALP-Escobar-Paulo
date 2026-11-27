@@ -1,5 +1,4 @@
 public class Estudiante {
-    // CAMBIA ESTE VALOR SEGÚN TU VARIANTE ASIGNADA (A=11, B=12, C=13, D=14, E=15, F=16, G=17, H=18)
     public static final double NOTA_MINIMA_APROBACION = 14.0;
 
     private String codigo;
@@ -44,7 +43,7 @@ public class Estudiante {
         for (int nota : notas) {
             suma += nota;
         }
-        return suma / 3.0; // División real para evitar división entera
+        return suma / 3.0; 
     }
 
     public int obtenerNotaMaxima() {
