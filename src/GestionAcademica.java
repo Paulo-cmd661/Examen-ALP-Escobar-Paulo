@@ -113,7 +113,6 @@ public class GestionAcademica {
             System.out.println("Ningún estudiante tiene promedio inferior al general.");
         }
 
-        // Ordenamiento de mayor a menor promedio (copia para no alterar orden original si no se desea)
         ArrayList<Estudiante> ordenados = new ArrayList<>(estudiantes);
         for (int i = 0; i < ordenados.size() - 1; i++) {
             for (int j = 0; j < ordenados.size() - 1 - i; j++) {
